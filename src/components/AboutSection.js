@@ -1,6 +1,7 @@
 import React from "react";
 import home1 from "../img/home1.png"
 
+
 function AboutSection() {
   return (
     <div>
