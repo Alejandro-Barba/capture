@@ -23,8 +23,7 @@ function ServicesSection() {
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
-        </Cards>
-        <Cards>
+
           <Card>
             <div className="icon">
               <img src={teamwork} alt="" />
@@ -32,8 +31,7 @@ function ServicesSection() {
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
-        </Cards>
-        <Cards>
+
           <Card>
             <div className="icon">
               <img src={diaphragm} alt="" />
@@ -41,8 +39,7 @@ function ServicesSection() {
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
-        </Cards>
-        <Cards>
+
           <Card>
             <div className="icon">
               <img src={money} alt="" />
@@ -75,16 +72,16 @@ const Cards = styled.div`
 `;
 
 const Card = styled.div`
-flex-basis: 15rem;
-  .icon{
+  flex-basis: 15rem;
+  .icon {
     display: flex;
     align-items: center;
   }
-  h3{
-      margin-left: 1rem;
-      background: white;
-      color: black;
-      padding: 1rem;
+  h3 {
+    margin-left: 1rem;
+    background: white;
+    color: black;
+    padding: 1rem;
   }
 `;
 
